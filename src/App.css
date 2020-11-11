@@ -2,6 +2,11 @@
   background: rgb(249, 249, 249);
 }
 
+@font-face {
+  font-family: 'supply';
+  src: url(./fonts/Supply-Regular.otf);
+}
+
 /* container starts */
 .container {
   width: 80%;
@@ -10,7 +15,34 @@
 }
 
 .body {
-  
+  text-align: center;
+}
+
+.plusElement {
+  margin: 0 auto 0 auto;
+  display: inline-block;
+}
+
+.rightElements {
+  display: inline-block;
+}
+
+.arrowPoint {
+  width: 350px;
+  border-bottom: 2px solid #E0E0E0;
+}
+
+.downArrow {
+  width: 20px;
+  height: 24px;
+  display: inline;
+}
+
+.arrowTxt {
+  width: 200px;
+  font-size: 12px;
+  display: inline;
+  font-family: 'supply';
 }
 /* container ends */
 

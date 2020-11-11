@@ -3,6 +3,7 @@ import Nav from './Nav';
 import './App.css';
 import logo from './logo.svg';
 import plusElement from './plusElement.svg';
+import downArrow from './downArrow.svg';
 
 function App() {
   return (
@@ -17,10 +18,14 @@ function App() {
             <div id="us" className="">
               <h2>Who we are</h2>
 
+              <div className="arrowPoint">
+                <img className="downArrow" src={downArrow}></img>
+                <p className="arrowTxt">Atomic transforms unstructured text into searchable knowledge graphs.</p>
+              </div>
+
             </div>
             <div id="join">
               <h2>Join us</h2>
-
             </div>
           </div>
         </div>

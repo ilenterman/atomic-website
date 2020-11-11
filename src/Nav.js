@@ -5,15 +5,16 @@ function Nav() {
     return (
       <>
         <nav className="nav">
-          <div className="branding">
-            <img className="brandingLogo" src={logo} alt="logo" />
-            <h4 className="brandingTxt">Atomic Search</h4>
+          <div className="navElements">
+            <div className="branding">
+                <img className="brandingLogo" src={logo} alt="logo" />
+                <h3 className="brandingTxt">Atomic Search</h3>
+            </div>
+            <div className="navLinks">
+                <a id="twtrLink" className="navLink" href="https://twitter.com/atomicsearchinc">Twitter</a>
+                <a id="contactLink" className="navLink" href="mailto:igor@atomicsearchinc.com">Contact</a>
+            </div>
           </div>
-          <div className="navLinks">
-            <a className="navLink" href="">Twitter</a>
-            <a className="navLink" href="">Contact</a>
-          </div>
-          <hr/>
         </nav>
       </>
     );

@@ -1,11 +1,14 @@
 /* nav starts */
-.nav {
-
+.navElements {
+  border-bottom: 3px solid black;
 }
 
 .branding {
+  width: 300px;
   display: flex;
-  margin: 0;
+  top: 25px;
+  position: relative;
+  background: none;
 }
 
 .brandingLogo {
@@ -27,7 +30,19 @@
   text-decoration: none;
 }
 
+#twtrLink {
+    margin: 0 10px 0 0;
+}
+
+#contactLink {
+    margin: 0 0 0 10px;
+}
+
 hr {
   border-color: black;
+}
+
+@media (max-width: 600px) {
+    .navLinks { display: none; }
 }
 /* nav ends */
