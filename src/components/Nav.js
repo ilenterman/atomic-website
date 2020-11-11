@@ -5,17 +5,18 @@ function Nav() {
     return (
       <>
         <nav className="nav">
+          <div className="brandAndLinks">
             <div className="branding">
-                <img className="brandingLogo" src={logo} alt="logo" />
-                <p className="brandingTxt">ATOMIC SEARCH</p>
-            </div>
-            <div/>
-            <div className="navLinks">
+              <img className="brandingLogo" src={logo} alt="logo" />
+              <h1 className="brandingTxt">ATOMIC SEARCH</h1>
+              <div className="navLinks">
                 <a id="twtrLink" className="navLink" href="https://twitter.com/atomicsearchinc">Twitter</a>
                 <a id="contactLink" className="navLink" href="mailto:igor@atomicsearchinc.com">Contact</a>
+              </div>
             </div>
-            <hr/>
+          </div>
         </nav>
+        <hr/>
       </>
     );
 };

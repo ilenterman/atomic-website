@@ -1,53 +1,52 @@
 /* nav starts */
-.nav {
-  display: block;
-  grid-template-columns: repeat(3, 1fr);
+.brandAndLinks {
+  width: 100%;
+  background-color: green;
 }
 
 .branding {
-  width: 300px;
+  margin-top: 60px;
+  width: 100%;
   display: flex;
-  top: 25px;
-  position: relative;
-  background: none;
   cursor: pointer;
 }
 
 .brandingLogo {
-  margin-right: 15px;
   display: inline-block;
 }
 
 .brandingTxt {
+  margin-left: 19px;
   display: inline-block;
 }
 
 .navLinks {
-  margin: 0;
-  text-align: right;
+  margin: 7px 0 0 0;
+  position: absolute;
+  right: 10%;
 }
 
-.navLink {
-  color: black;
+.navLinks #twtrLink {
+  margin-right: 15px;
+  font-size: 18px;
   font-family: 'supplyReg';
-  text-decoration: none;
 }
 
-#twtrLink {
-  margin: 0 10px 0 0;
-  display: inline;
-}
-
-#contactLink {
-    display: inline;
+.navLinks #contactLink {
+  margin-left: 15px;
+  font-size: 18px;
+  font-family: 'supplyReg';
 }
 
 hr {
-  border-color: black;
-  margin-top: 40px;
+  border: 2px solid black;
 }
 
 @media (max-width: 600px) {
+  .navLinks { display: none; }
+}
+
+@media (min-width: 1600px) {
   .navLinks { display: none; }
 }
 /* nav ends */

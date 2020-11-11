@@ -10,14 +10,15 @@
     grid-template-rows: repeat(10, 1fr);
 }
 
-.plusBox {
+/* Plus box #1 starts */
+.plusBox1 {
     width: 50px;
     height: 50px;
     position: relative;
 }
 
-#lineUp {
-    width: 5px;
+#lineUp1 {
+    width: 3px;
     height: 20px;
     position: absolute;
     background-color: black;
@@ -28,9 +29,9 @@
     animation: 1.2s stretchDown forwards;
 }
 
-#lineSide {
+#lineSide1 {
     width: 20px;
-    height: 5px;
+    height: 3px;
     position: absolute;
     background-color: black;
     top: 50%;
@@ -40,23 +41,20 @@
     animation: 1.2s stretchIn forwards;
 }
 
-.grid:hover #lineUp {
-    animation: 1.2s stretchUp forwards;
+.plusBox1:hover #lineUp1 {
+    animation: 0.6s stretchUp forwards;
 }
 
-.grid:hover #lineSide {
-    animation: 1.2s stretchSide forwards;
+.plusBox1:hover #lineSide1 {
+    animation: 0.6s stretchSide forwards;
 }
 
 @keyframes stretchUp {
     0% {
         height: 20px;
     }
-    80% {
-        height: 80px;
-    }
     100% {
-        height: 100%;
+        height: 400px;
     }
 }
 
@@ -64,17 +62,14 @@
     0% {
         width: 20px;
     }
-    80% {
-        width: 80px;
-    }
     100% {
-        width: 100%;
+        width: 400px;
     }
 }
 
 @keyframes stretchDown {
     0% {
-        height: 100%;
+        height: 400px;
     }
     100% {
         height: 20px;
@@ -83,9 +78,6090 @@
 
 @keyframes stretchIn {
     0% {
-        width: 100%;
+        width: 400px;
     }
     100% {
         width: 20px;
     }
 }
+/* Plus box #1 ends */
+
+/* Plus box #2 starts */
+.plusBox2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp2 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide2 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox2:hover #lineUp2 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox2:hover #lineSide2 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #2 ends */
+
+/* Plus box #3 starts */
+.plusBox3 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp3 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide3 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox3:hover #lineUp3 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox3:hover #lineSide3 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #3 ends */
+
+/* Plus box #4 starts */
+.plusBox4 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp4 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide4 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox4:hover #lineUp4 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox4:hover #lineSide4 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #4 ends */
+
+/* Plus box #5 starts */
+.plusBox5 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp5 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide5 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox5:hover #lineUp5 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox5:hover #lineSide5 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #5 ends */
+
+/* Plus box #6 starts */
+.plusBox6 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp6 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide6 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox6:hover #lineUp6 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox6:hover #lineSide6 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #6 ends */
+
+/* Plus box #7 starts */
+.plusBox7 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp7 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide7 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox7:hover #lineUp7 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox7:hover #lineSide7 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #7 ends */
+
+/* Plus box #8 starts */
+.plusBox8 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp8 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide8 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox8:hover #lineUp8 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox8:hover #lineSide8 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #8 ends */
+
+/* Plus box #9 starts */
+.plusBox9 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp9 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide9 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox9:hover #lineUp9 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox9:hover #lineSide9 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #9 ends */
+
+/* Plus box #10 starts */
+.plusBox10 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp10 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide10 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox10:hover #lineUp10 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox10:hover #lineSide10 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #10 ends */
+
+/* Plus box #11 starts */
+.plusBox11 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp11 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide11 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox11:hover #lineUp11 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox11:hover #lineSide11 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #11 ends */
+
+/* Plus box #12 starts */
+.plusBox12 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp12 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide12 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox12:hover #lineUp12 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox12:hover #lineSide12 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #12 ends */
+
+/* Plus box #13 starts */
+.plusBox13 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp13 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide13 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox13:hover #lineUp13 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox13:hover #lineSide13 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #13 ends */
+
+/* Plus box #14 starts */
+.plusBox14 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp14 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide14 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox14:hover #lineUp14 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox14:hover #lineSide14 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #14 ends */
+
+/* Plus box #15 starts */
+.plusBox15 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp15 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide15 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox15:hover #lineUp15 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox15:hover #lineSide15 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #15 ends */
+
+/* Plus box #16 starts */
+.plusBox16 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp16 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide16 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox16:hover #lineUp16 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox16:hover #lineSide16 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #16 ends */
+
+/* Plus box #17 starts */
+.plusBox17 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp17 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide17 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox17:hover #lineUp17 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox17:hover #lineSide17 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #17 ends */
+
+/* Plus box #18 starts */
+.plusBox18 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp18 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide18 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox18:hover #lineUp18 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox18:hover #lineSide18 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #18 ends */
+
+/* Plus box #19 starts */
+.plusBox19 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp19 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide19 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox19:hover #lineUp19 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox19:hover #lineSide19 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #19 ends */
+
+/* Plus box #20 starts */
+.plusBox20 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp20 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide20 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox20:hover #lineUp20 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox20:hover #lineSide20 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #20 ends */
+
+/* Plus box #21 starts */
+.plusBox21 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp21 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide21 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox21:hover #lineUp21 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox21:hover #lineSide21 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #21 ends */
+
+/* Plus box #22 starts */
+.plusBox22 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp22 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide22 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox22:hover #lineUp22 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox22:hover #lineSide22 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #22 ends */
+
+/* Plus box #23 starts */
+.plusBox23 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp23 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide23 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox23:hover #lineUp23 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox23:hover #lineSide23 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #23 ends */
+
+/* Plus box #24 starts */
+.plusBox24 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp24 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide24 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox24:hover #lineUp24 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox24:hover #lineSide24 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #24 ends */
+
+/* Plus box #25 starts */
+.plusBox25 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp25 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide25 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox25:hover #lineUp25 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox25:hover #lineSide25 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #25 ends */
+
+/* Plus box #26 starts */
+.plusBox26 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp26 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide26 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox26:hover #lineUp26 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox26:hover #lineSide26 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #26 ends */
+
+/* Plus box #27 starts */
+.plusBox27 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp27 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide27 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox27:hover #lineUp27 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox27:hover #lineSide27 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #27 ends */
+
+/* Plus box #28 starts */
+.plusBox28 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp28 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide28 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox28:hover #lineUp28 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox28:hover #lineSide28 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #28 ends */
+
+/* Plus box #29 starts */
+.plusBox29 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp29 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide29 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox29:hover #lineUp29 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox29:hover #lineSide29 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #29 ends */
+
+/* Plus box #30 starts */
+.plusBox30 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp30 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide30 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox30:hover #lineUp30 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox30:hover #lineSide30 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #30 ends */
+
+/* Plus box #31 starts */
+.plusBox31 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp31 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide31 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox31:hover #lineUp31 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox31:hover #lineSide31 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #31 ends */
+
+/* Plus box #32 starts */
+.plusBox32 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp32 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide32 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox32:hover #lineUp32 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox32:hover #lineSide32 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #32 ends */
+
+/* Plus box #33 starts */
+.plusBox33 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp33 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide33 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox33:hover #lineUp33 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox33:hover #lineSide33 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #33 ends */
+
+/* Plus box #34 starts */
+.plusBox34 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp34 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide34 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox34:hover #lineUp34 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox34:hover #lineSide34 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #34 ends */
+
+/* Plus box #35 starts */
+.plusBox35 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp35 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide35 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox35:hover #lineUp35 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox35:hover #lineSide35 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #35 ends */
+
+/* Plus box #36 starts */
+.plusBox36 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp36 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide36 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox36:hover #lineUp36 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox36:hover #lineSide36 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #36 ends */
+
+/* Plus box #37 starts */
+.plusBox37 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp37 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide37 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox37:hover #lineUp37 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox37:hover #lineSide37 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #37 ends */
+
+/* Plus box #37 starts */
+.plusBox37 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp37 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide37 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox37:hover #lineUp37 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox37:hover #lineSide37 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #37 ends */
+
+/* Plus box #38 starts */
+.plusBox38 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp38 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide38 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox38:hover #lineUp38 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox38:hover #lineSide38 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #38 ends */
+
+/* Plus box #39 starts */
+.plusBox39 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp39 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide39 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox39:hover #lineUp39 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox39:hover #lineSide39 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #39 ends */
+
+/* Plus box #40 starts */
+.plusBox40 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp40 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide40 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox40:hover #lineUp40 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox40:hover #lineSide40 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #40 ends */
+
+/* Plus box #41 starts */
+.plusBox41 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp41 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide41 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox41:hover #lineUp174 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox41:hover #lineSide174 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 400px;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 400px;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 400px;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 400px;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #41 ends */
+
+/* Plus box #42 starts */
+.plusBox42 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp42 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide42 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox42:hover #lineUp42 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox42:hover #lineSide42 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #42 ends */
+
+/* Plus box #43 starts */
+.plusBox43 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp43 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide43 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox43:hover #lineUp43 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox43:hover #lineSide43 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #43 ends */
+
+/* Plus box #44 starts */
+.plusBox44 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp44 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide44 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox44:hover #lineUp44 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox44:hover #lineSide44 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #44 ends */
+
+/* Plus box #45 starts */
+.plusBox45 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp45 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide45 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox45:hover #lineUp45 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox45:hover #lineSide45 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #45 ends */
+
+/* Plus box #46 starts */
+.plusBox46 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp46 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide46 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox46:hover #lineUp46 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox46:hover #lineSide46 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #46 ends */
+
+/* Plus box #47 starts */
+.plusBox47 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp47 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide47 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox47:hover #lineUp47 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox47:hover #lineSide47 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #47 ends */
+
+/* Plus box #48 starts */
+.plusBox48 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp48 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide48 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox48:hover #lineUp48 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox48:hover #lineSide48 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #48 ends */
+
+/* Plus box #49 starts */
+.plusBox49 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp49 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide49 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox49:hover #lineUp49 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox49:hover #lineSide49 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #49 ends */
+
+/* Plus box #50 starts */
+.plusBox50 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp50 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide50 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox50:hover #lineUp50 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox50:hover #lineSide50 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #50 ends */
+
+/* Plus box #51 starts */
+.plusBox51 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp51 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide51 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox51:hover #lineUp51 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox51:hover #lineSide51 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #51 ends */
+
+/* Plus box #52 starts */
+.plusBox52 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp52 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide52 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox52:hover #lineUp52 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox52:hover #lineSide52 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #52 ends */
+
+/* Plus box #53 starts */
+.plusBox53 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp53 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide53 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox53:hover #lineUp53 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox53:hover #lineSide53 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #53 ends */
+
+/* Plus box #54 starts */
+.plusBox54 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp54 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide54 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox54:hover #lineUp54 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox54:hover #lineSide54 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #54 ends */
+
+/* Plus box #55 starts */
+.plusBox55 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp55 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide55 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox55:hover #lineUp55 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox55:hover #lineSide55 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #55 ends */
+
+/* Plus box #56 starts */
+.plusBox56 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp56 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide56 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox56:hover #lineUp56 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox56:hover #lineSide56 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #56 ends */
+
+/* Plus box #57 starts */
+.plusBox57 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp57 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide57 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox57:hover #lineUp57 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox57:hover #lineSide57 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #57 ends */
+
+/* Plus box #58 starts */
+.plusBox58 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp58 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide58 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox58:hover #lineUp58 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox58:hover #lineSide58 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #58 ends */
+
+/* Plus box #59 starts */
+.plusBox59 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp59 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide59 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox59:hover #lineUp59 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox59:hover #lineSide59 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #59 ends */
+
+/* Plus box #60 starts */
+.plusBox60 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp60 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide60 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox60:hover #lineUp60 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox60:hover #lineSide60 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #60 ends */
+
+/* Plus box #61 starts */
+.plusBox61 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp61 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide61 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox61:hover #lineUp61 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox61:hover #lineSide61 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #61 ends */
+
+/* Plus box #62 starts */
+.plusBox62 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp62 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide62 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox62:hover #lineUp62 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox62:hover #lineSide62 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #62 ends */
+
+/* Plus box #63 starts */
+.plusBox63 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp63 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide63 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox63:hover #lineUp63 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox63:hover #lineSide63 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #63 ends */
+
+/* Plus box #64 starts */
+.plusBox64 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp64 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide64 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox64:hover #lineUp64 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox64:hover #lineSide64 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #64 ends */
+
+/* Plus box #65 starts */
+.plusBox65 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp65 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide65 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox65:hover #lineUp65 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox65:hover #lineSide65 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #65 ends */
+
+/* Plus box #66 starts */
+.plusBox66 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp66 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide66 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox66:hover #lineUp66 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox66:hover #lineSide66 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #66 ends */
+
+/* Plus box #67 starts */
+.plusBox67 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp67 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide67 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox27:hover #lineUp67 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox27:hover #lineSide67 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 180%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #67 ends */
+
+/* Plus box #68 starts */
+.plusBox68 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp68 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide68 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox68:hover #lineUp68 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox68:hover #lineSide68 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #68 ends */
+
+/* Plus box #69 starts */
+.plusBox69 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp69 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide69 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox69:hover #lineUp69 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox69:hover #lineSide69 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #69 ends */
+
+/* Plus box #70 starts */
+.plusBox70 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp70 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide70 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox70:hover #lineUp70 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox70:hover #lineSide70 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #70 ends */
+
+/* Plus box #71 starts */
+.plusBox71 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp71 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide71 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox71:hover #lineUp71 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox71:hover #lineSide71 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #71 ends */
+
+/* Plus box #72 starts */
+.plusBox72 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp72 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide72 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox72:hover #lineUp72 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox72:hover #lineSide72 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #72 ends */
+
+/* Plus box #73 starts */
+.plusBox73 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp73 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide73 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox73:hover #lineUp73 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox73:hover #lineSide73 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #73 ends */
+
+/* Plus box #74 starts */
+.plusBox74 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp74 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide74 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox74:hover #lineUp74 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox74:hover #lineSide74 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #74 ends */
+
+/* Plus box #75 starts */
+.plusBox75 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp75 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide75 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox75:hover #lineUp75 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox75:hover #lineSide75 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #75 ends */
+
+/* Plus box #76 starts */
+.plusBox76 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp76 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide76 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox76:hover #lineUp76 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox76:hover #lineSide76 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #76 ends */
+
+/* Plus box #77 starts */
+.plusBox77 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp77 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide77 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox77:hover #lineUp77 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox77:hover #lineSide77 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #77 ends */
+
+/* Plus box #78 starts */
+.plusBox78 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp78 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide78 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox78:hover #lineUp78 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox78:hover #lineSide78 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #78 ends */
+
+/* Plus box #79 starts */
+.plusBox79 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp79 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide79 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox79:hover #lineUp79 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox79:hover #lineSide79 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #79 ends */
+
+/* Plus box #80 starts */
+.plusBox80 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#lineUp80 {
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
+}
+
+#lineSide80 {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
+}
+
+.plusBox80:hover #lineUp80 {
+    animation: 0.6s stretchUp forwards;
+}
+
+.plusBox80:hover #lineSide80 {
+    animation: 0.6s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    0% {
+        height: 20px;
+    }
+    100% {
+        height: 160%;
+    }
+}
+
+@keyframes stretchSide {
+    0% {
+        width: 20px;
+    }
+    100% {
+        width: 160%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 160%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 160%;
+    }
+    100% {
+        width: 20px;
+    }
+}
+/* Plus box #80 ends */

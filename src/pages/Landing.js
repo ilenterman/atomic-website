@@ -17,64 +17,80 @@ function App() {
           </div>
           <div className="rightElements">
             <div className="us">
-              <h1>WHO WE ARE</h1>
-              <div className="arrowPoint">
-                  <div className="arrowAndTxt">
-                      <div className="arrowContainer">
-                          <img className="downArrow" src={downArrow} alt="down arrow"></img>
-                      </div>
-                      <p className="arrowTxt">Atomic transforms unstructured text into searchable knowledge graphs.</p>
-                  </div>
-                  <hr className="arrowPointHr"/>
+            <h1 id="aboutW">WHO WE ARE</h1>
+            <h2 id="aboutM">ABOUT</h2>
+
+            <div className="arrowPoint">
+              <div className="arrowImg">
+                <img className="downArrow" src={downArrow} alt="down arrow"></img>
               </div>
-              <div className="arrowPoint">
-                  <div className="arrowAndTxt">
-                      <div className="arrowContainer">
-                          <img className="downArrow" src={downArrow} alt="down arrow"></img>
-                      </div>
-                      <p className="arrowTxt">We are working at the bleeding edge of machine learning, natural language processing and graph theory.</p>
-                  </div>
-                  <hr className="arrowPointHr"/>
-              </div>
-              <div className="arrowPoint">
-                  <div className="arrowAndTxt">
-                      <div className="arrowContainer">
-                          <img className="downArrow" src={downArrow} alt="down arrow"></img>
-                      </div>
-                      <p className="arrowTxt">Our mission is to usher in the next paradigm of general purpose search - to realize the dream of the Semantic Web.</p>
-                  </div>
-                  <hr className="arrowPointHr"/>
-              </div>
-              <div className="arrowPoint">
-                  <div className="arrowAndTxt">
-                      <div className="arrowContainer">
-                          <img className="downArrow" src={downArrow} alt="down arrow"></img>
-                      </div>
-                      <p className="arrowTxt">We are backed by Josh Buckley, Village Global, & some incredible angels.</p>
-                  </div>
-                  <hr className="arrowPointHr"/>
+              <div className="arrowAndTxt">
+                <p className="arrowTxt">Atomic transforms unstructured text into searchable knowledge graphs.</p>
               </div>
             </div>
+            <hr className="arrowPointHr"/>
+
+            <div className="arrowPoint">
+              <div className="arrowImg">
+                <img className="downArrow" src={downArrow} alt="down arrow"></img>
+              </div>
+              <div className="arrowAndTxt">
+                <p className="arrowTxt">We are working at the bleeding edge of machine learning, natural language processing and graph theory.</p>
+              </div>
+            </div>
+            <hr className="arrowPointHr"/>
+
+            <div className="arrowPoint">
+              <div className="arrowImg">
+                <img className="downArrow" src={downArrow} alt="down arrow"></img>
+              </div>
+              <div className="arrowAndTxt">
+                <p className="arrowTxt">Our mission is to usher in the next paradigm of general purpose search - to realize the dream of the Semantic Web.</p>
+              </div>
+            </div>
+            <hr className="arrowPointHr"/>
+
+            <div className="arrowPoint">
+              <div className="arrowImg">
+                <img className="downArrow" src={downArrow} alt="down arrow"></img>
+              </div>
+              <div className="arrowAndTxt">
+                <p className="arrowTxt">We are backed by Josh Buckley, Village Global, & some incredible angels.</p>
+              </div>
+            </div>
+            <hr className="arrowPointHr"/>
+
             <div id="join">
-                <h1>JOIN US</h1>
+                <h1 id="joinTitle">JOIN US</h1>
                 <p>If you are a genius with a background in NLP, ML or knowledge graphs we want to meet you.</p>
                 <div className="arrowLinkContainer">
-                  <a className="arrowLink" href="./Jobs"><p>Founding NLP Engineer</p><img className="arrowLinkImg" src={arrowSide}></img></a>
+                  <a className="arrowLink" href="./Jobs"><p>Founding NLP Engineer</p>&nbsp;&nbsp;<img className="arrowLinkImg" src={arrowSide}></img></a>
                 </div>
                 <br/>
                 <div className="arrowLinkContainer">
-                  <a className="arrowLink" href="./Jobs"><p>Founding Graph ML Engineer</p><img className="arrowLinkImg" src={arrowSide}></img></a>
+                  <a className="arrowLink" href="./Jobs"><p>Founding Graph ML Engineer</p>&nbsp;&nbsp;<img className="arrowLinkImg" src={arrowSide}></img></a>
+                </div>
+            </div>
+            <div id="jobs">
+                <h2>JOBS</h2>
+                <div className="arrowLinkContainer">
+                  <a className="arrowLink inlineContent" href="mailto:igor@atomicsearchinc.com"><p>Founding Data Engineer</p>&nbsp;&nbsp;<img className="arrowLinkImg inlineContent" src={arrowSide}></img></a>
+                </div>
+                <br/>
+                <div className="arrowLinkContainer">
+                  <a className="arrowLink inlineContent" href="https://twitter.com/atomicsearchinc"><p>Founding Machine Learning Engineer</p>&nbsp;&nbsp;<img className="arrowLinkImg inlineContent" src={arrowSide}></img></a>
                 </div>
             </div>
             <div id="contact">
-                <h1>CONTACT</h1>
+                <h2>CONTACT</h2>
                 <div className="arrowLinkContainer">
-                  <a className="arrowLink" href="mailto:igor@atomicsearchinc.com"><p>Email</p><img className="arrowLinkImg" src={arrowSide}></img></a>
+                  <a className="arrowLink inlineContent" href="mailto:igor@atomicsearchinc.com"><p>Email</p>&nbsp;&nbsp;<img className="arrowLinkImg inlineContent" src={arrowSide}></img></a>
                 </div>
                 <br/>
                 <div className="arrowLinkContainer">
-                  <a className="arrowLink" href="https://twitter.com/atomicsearchinc"><p>Twitter</p><img className="arrowLinkImg" src={arrowSide}></img></a>
+                  <a className="arrowLink inlineContent" href="https://twitter.com/atomicsearchinc"><p>Twitter</p>&nbsp;&nbsp;<img className="arrowLinkImg inlineContent" src={arrowSide}></img></a>
                 </div>
+              </div>
             </div>
           </div>
         </div>
