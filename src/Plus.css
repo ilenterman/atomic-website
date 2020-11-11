@@ -1,29 +1,35 @@
+.container {
+    background: rgb(249, 249, 249);
+}
+
 .grid {
     width: 400px;
     height: 500px;
-    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 1fr);
 }
 
 .plusBox {
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
+    width: 50px;
+    height: 50px;
     position: relative;
 }
 
 #lineUp {
     width: 5px;
-    height: 60px;
+    height: 20px;
     position: absolute;
     background-color: black;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
 }
 
 #lineSide {
-    width: 60px;
+    width: 20px;
     height: 5px;
     position: absolute;
     background-color: black;
@@ -31,22 +37,55 @@
     left: 50%;
     transform: translate(-50%,-50%);
     transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
 }
 
 .grid:hover #lineUp {
-    animation: .5s stretchUp forwards;
+    animation: 1.2s stretchUp forwards;
 }
 
 .grid:hover #lineSide {
-    animation: .5s stretchSide forwards;
+    animation: 1.2s stretchSide forwards;
 }
 
 @keyframes stretchUp {
-    from {height: 60px;}
-    to {height: 100%;}
+    0% {
+        height: 20px;
+    }
+    80% {
+        height: 80px;
+    }
+    100% {
+        height: 100%;
+    }
 }
 
 @keyframes stretchSide {
-    from {width: 60px;}
-    to {width: 100%;}
+    0% {
+        width: 20px;
+    }
+    80% {
+        width: 80px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes stretchDown {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+@keyframes stretchIn {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 20px;
+    }
 }

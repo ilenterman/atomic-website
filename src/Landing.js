@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
+import Plus from './Plus';
 import './App.css';
-import plusElement from './plusElement.svg';
 import downArrow from './downArrow.svg';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <Nav/>
         <div className="body">
           <div className="plusElement">
-            <img id="plusElement" src={plusElement} alt="plus"></img>
+            <Plus/>
           </div>
           <div className="rightElements">
             <div id="us" className="">

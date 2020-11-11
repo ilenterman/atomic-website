@@ -9,6 +9,322 @@ function Plus() {
           <div id="lineUp"></div>
           <div id="lineSide"></div>
         </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
+        <div className="plusBox">
+          <div id="lineUp"></div>
+          <div id="lineSide"></div>
+        </div>
       </div>
     </>
   );
