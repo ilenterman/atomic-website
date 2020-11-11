@@ -92,6 +92,23 @@ p {
 .arrowLinkImg {
   display: inline-block;
 }
+
+.arrowLinkContainer:hover .arrowLinkImg {
+  animation: 0.4s shiftRight forwards;
+}
+
+@keyframes shiftRight {
+  0% {
+    margin-left: 0px;
+  }
+  80% {
+    margin-left: 10px;
+  }
+  100% {
+    margin-left: 15px;
+  }
+}
+
 /* container ends */
 
 
