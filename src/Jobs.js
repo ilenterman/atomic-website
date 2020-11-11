@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="container">
         <Nav/>
-        <button>Back</button>
+        <a className="jobsBackBtn" href="/">Back</a>
         <div className="jobsDesc">
             <h1>Founding Graph ML Engineer</h1>
             <h2>WHO WE ARE</h2>

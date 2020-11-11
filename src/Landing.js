@@ -1,8 +1,10 @@
 import React from 'react';
+import Jobs from './Jobs';
 import Nav from './Nav';
 import Plus from './Plus';
 import './App.css';
 import downArrow from './downArrow.svg';
+import arrowSide from './arrowSide.svg';
 
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
             <Plus/>
           </div>
           <div className="rightElements">
-            <div id="us" className="">
+            <div className="us">
               <h1>WHO WE ARE</h1>
               <div className="arrowPoint">
                   <div className="arrowAndTxt">
@@ -56,8 +58,23 @@ function App() {
             <div id="join">
                 <h1>JOIN US</h1>
                 <p>If you are a genius with a background in NLP, ML or knowledge graphs we want to meet you.</p>
-                <p>Founding NLP Engineer</p>
-                <p>Founding Graph ML Engineer</p>
+                <div className="arrowLinkContainer">
+                  <a className="arrowLink" href="./Jobs"><p>Founding NLP Engineer</p><img className="arrowLinkImg" src={arrowSide}></img></a>
+                </div>
+                <br/>
+                <div className="arrowLinkContainer">
+                  <a className="arrowLink" href="./Jobs"><p>Founding Graph ML Engineer</p><img className="arrowLinkImg" src={arrowSide}></img></a>
+                </div>
+            </div>
+            <div id="contact">
+                <h1>CONTACT</h1>
+                <div className="arrowLinkContainer">
+                  <a className="arrowLink" href="mailto:igor@atomicsearchinc.com"><p>Email</p><img className="arrowLinkImg" src={arrowSide}></img></a>
+                </div>
+                <br/>
+                <div className="arrowLinkContainer">
+                  <a className="arrowLink" href="https://twitter.com/atomicsearchinc"><p>Twitter</p><img className="arrowLinkImg" src={arrowSide}></img></a>
+                </div>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 /* nav starts */
-.navElements {
-  border-bottom: 3px solid black;
+.nav {
+  display: block;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .branding {
@@ -9,6 +10,7 @@
   top: 25px;
   position: relative;
   background: none;
+  cursor: pointer;
 }
 
 .brandingLogo {
@@ -27,22 +29,25 @@
 
 .navLink {
   color: black;
+  font-family: 'supplyReg';
   text-decoration: none;
 }
 
 #twtrLink {
-    margin: 0 10px 0 0;
+  margin: 0 10px 0 0;
+  display: inline;
 }
 
 #contactLink {
-    margin: 0 0 0 10px;
+    display: inline;
 }
 
 hr {
   border-color: black;
+  margin-top: 40px;
 }
 
 @media (max-width: 600px) {
-    .navLinks { display: none; }
+  .navLinks { display: none; }
 }
 /* nav ends */

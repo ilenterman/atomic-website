@@ -14,9 +14,6 @@ function App() {
         <Route path="/jobs" exact>
             <Jobs />
         </Route>
-        <Route path="/plus" exact>
-            <Plus />
-        </Route>
         <Route>
             <Error />
         </Route>
