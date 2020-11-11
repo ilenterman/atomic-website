@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Landing from './Landing';
-import Jobs from './Jobs';
-import Error from './Error';
-import Plus from './Plus';
+import Landing from '../pages/Landing';
+import Jobs from '../pages/Jobs';
+import Error from '../pages/Error';
 
 function App() {
   return (

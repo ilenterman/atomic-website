@@ -1,5 +1,5 @@
-import './App.css';
-import icon from './errorPageIcon.svg';
+import '../styles/App.css';
+import icon from '../assets/errorPageIcon.svg';
 
 function App() {
   return (

@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: 'supplyReg';
-  src: url(./fonts/Supply-Regular.otf);
+  src: url(../fonts/Supply-Regular.otf);
 }
 
 @font-face {
   font-family: 'supplyBold';
-  src: url(./fonts/Supply-Regular.otf);
+  src: url(../fonts/Supply-Regular.otf);
 }
 
 h1 {

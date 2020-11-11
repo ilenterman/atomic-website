@@ -1,7 +1,7 @@
 import React from 'react';
-import Nav from './Nav';
-import './App.css';
-import downArrow from './downArrow.svg';
+import Nav from '../components/Nav';
+import '../styles/App.css';
+import downArrow from '../assets/downArrow.svg';
 
 function App() {
   return (

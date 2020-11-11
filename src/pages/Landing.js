@@ -1,10 +1,10 @@
 import React from 'react';
 import Jobs from './Jobs';
-import Nav from './Nav';
-import Plus from './Plus';
-import './App.css';
-import downArrow from './downArrow.svg';
-import arrowSide from './arrowSide.svg';
+import Nav from '../components/Nav';
+import Plus from '../components/Plus';
+import '../styles/App.css';
+import downArrow from '../assets/downArrow.svg';
+import arrowSide from '../assets/arrowSide.svg';
 
 function App() {
   return (

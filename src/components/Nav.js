@@ -1,5 +1,5 @@
-import './Nav.css';
-import logo from './logo.svg';
+import '../styles/Nav.css';
+import logo from '../assets/logo.svg';
 
 function Nav() {
     return (
