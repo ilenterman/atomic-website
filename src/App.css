@@ -3,8 +3,28 @@
 }
 
 @font-face {
-  font-family: 'supply';
+  font-family: 'supplyReg';
   src: url(./fonts/Supply-Regular.otf);
+}
+
+@font-face {
+  font-family: 'supplyBold';
+  src: url(./fonts/Supply-Regular.otf);
+}
+
+h1 {
+  font-weight: 36px;
+  font-family: 'supplyBold';
+}
+
+h2 {
+  font-weight: 24px;
+  font-family: 'supplyBold';
+}
+
+p {
+  font-weight: 12px;
+  font-family: 'supplyReg';
 }
 
 /* container starts */
@@ -15,7 +35,8 @@
 }
 
 .body {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .plusElement {
@@ -27,22 +48,32 @@
   display: inline-block;
 }
 
-.arrowPoint {
-  width: 350px;
-  border-bottom: 2px solid #E0E0E0;
+.arrowAndText {
+  margin: 0 0 10px 0;
+}
+
+.arrowContainer {
+  margin: 0 30px 0 0;
+  display: inline-block;
 }
 
 .downArrow {
-  width: 20px;
-  height: 24px;
-  display: inline;
+  width: 15px;
+  height: 20px;
+  vertical-align: top;
+
 }
 
 .arrowTxt {
-  width: 200px;
-  font-size: 12px;
-  display: inline;
-  font-family: 'supply';
+  margin: 0;
+  max-width: 400px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.arrowPointHr {
+  border: 2px solid #E0E0E0;
 }
 /* container ends */
 
@@ -55,6 +86,12 @@
   position: absolute;
 }
 
+/* Jobs.js Page */
+.jobsDesc {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 /* Error.js Page */
 #errorElements {
   margin: 10% 0 0 0;
@@ -64,4 +101,10 @@
 #errorIcon {
   margin-bottom: 20px;
   width: 30%;
+}
+
+/* Media query */
+@media (max-width: 800px) {
+  .plusElement { display: none; }
+
 }

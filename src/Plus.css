@@ -1,0 +1,52 @@
+.grid {
+    width: 400px;
+    height: 500px;
+    background-color: orange;
+}
+
+.plusBox {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: relative;
+}
+
+#lineUp {
+    width: 5px;
+    height: 60px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+}
+
+#lineSide {
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+}
+
+.grid:hover #lineUp {
+    animation: .5s stretchUp forwards;
+}
+
+.grid:hover #lineSide {
+    animation: .5s stretchSide forwards;
+}
+
+@keyframes stretchUp {
+    from {height: 60px;}
+    to {height: 100%;}
+}
+
+@keyframes stretchSide {
+    from {width: 60px;}
+    to {width: 100%;}
+}
