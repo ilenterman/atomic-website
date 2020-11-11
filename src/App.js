@@ -7,13 +7,13 @@ function App() {
     <>
       <div className="container">
         <nav className="nav">
-          <div>
-            <img src={logo} alt="logo" />
-            <h4>Atomic Search</h4>
+          <div className="branding">
+            <img className="brandingLogo" src={logo} alt="logo" />
+            <h4 className="brandingTxt">Atomic Search</h4>
           </div>
-          <div>
-            <a href="">Twitter</a>
-            <a href="">Contact</a>
+          <div className="navLinks">
+            <a className="navLink" href="">Twitter</a>
+            <a className="navLink" href="">Contact</a>
           </div>
           <hr/>
         </nav>
@@ -21,8 +21,8 @@ function App() {
           <div className="plusElement">
             <img id="plusElement" src={plusElement}></img>
           </div>
-          <div className="right elements">
-            <div id="us">
+          <div className="rightElements">
+            <div id="us" className="">
               <h2>Who we are</h2>
 
             </div>
