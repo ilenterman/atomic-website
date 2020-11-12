@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -58,7 +60,7 @@
         height: 20px;
     }
     100% {
-        height: 400px;
+        height: 150%;
     }
 }
 
@@ -67,7 +69,7 @@
         width: 20px;
     }
     100% {
-        width: 400px;
+        width: 150%;
     }
 }
 
@@ -134,7 +136,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -144,6 +147,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -210,7 +214,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -220,6 +225,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -286,7 +292,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -296,6 +303,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -362,7 +370,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -372,6 +381,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -438,7 +448,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -448,6 +459,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -514,7 +526,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -524,6 +537,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -590,7 +604,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -600,6 +615,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -666,7 +682,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -676,6 +693,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -742,7 +760,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -752,6 +771,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -818,7 +838,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -828,6 +849,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -894,7 +916,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -904,6 +927,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -970,7 +994,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -980,6 +1005,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1046,7 +1072,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1056,6 +1083,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1122,7 +1150,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1132,6 +1161,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1198,7 +1228,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1208,6 +1239,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1274,7 +1306,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1284,6 +1317,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1350,7 +1384,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1360,6 +1395,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1426,7 +1462,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1436,6 +1473,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1502,7 +1540,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1512,6 +1551,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1578,7 +1618,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1588,6 +1629,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1654,7 +1696,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1664,6 +1707,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1730,7 +1774,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1740,6 +1785,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1806,7 +1852,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1816,6 +1863,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1882,7 +1930,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1892,6 +1941,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -1958,7 +2008,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -1968,6 +2019,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2034,7 +2086,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2044,6 +2097,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2110,7 +2164,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2120,6 +2175,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2186,7 +2242,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2196,6 +2253,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2262,7 +2320,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2272,6 +2331,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2338,7 +2398,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2348,6 +2409,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2414,7 +2476,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2424,6 +2487,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2490,7 +2554,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2500,6 +2565,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2566,7 +2632,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2576,6 +2643,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2642,7 +2710,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2652,6 +2721,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2718,7 +2788,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2728,6 +2799,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2794,7 +2866,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2804,6 +2877,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2870,7 +2944,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2880,6 +2955,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -2946,7 +3022,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -2956,6 +3033,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3022,7 +3100,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3032,6 +3111,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3098,7 +3178,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3108,6 +3189,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3161,11 +3243,11 @@
     animation: 1.2s stretchIn forwards;
 }
 
-.plusBox41:hover #lineUp174 {
+.plusBox41:hover #lineUp41 {
     animation: 0.6s stretchUp forwards;
 }
 
-.plusBox41:hover #lineSide174 {
+.plusBox41:hover #lineSide41 {
     animation: 0.6s stretchSide forwards;
 }
 
@@ -3250,7 +3332,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3260,6 +3343,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3326,7 +3410,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3336,6 +3421,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3402,7 +3488,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3412,6 +3499,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3478,7 +3566,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3488,6 +3577,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3554,7 +3644,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3564,6 +3655,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3630,7 +3722,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3640,6 +3733,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3706,7 +3800,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3716,6 +3811,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3782,7 +3878,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3792,6 +3889,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3858,7 +3956,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3868,6 +3967,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -3934,7 +4034,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -3944,6 +4045,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4010,7 +4112,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4020,6 +4123,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4086,7 +4190,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4096,6 +4201,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4162,7 +4268,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4172,6 +4279,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4238,7 +4346,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4248,6 +4357,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4314,7 +4424,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4324,6 +4435,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4390,7 +4502,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4400,6 +4513,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4466,7 +4580,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4476,6 +4591,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4542,7 +4658,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4552,6 +4669,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4618,7 +4736,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4628,6 +4747,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4694,7 +4814,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4704,6 +4825,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4770,7 +4892,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4780,6 +4903,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4846,7 +4970,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4856,6 +4981,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4922,7 +5048,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -4932,6 +5059,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -4998,7 +5126,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5008,6 +5137,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5074,7 +5204,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5084,6 +5215,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5137,11 +5269,11 @@
     animation: 1.2s stretchIn forwards;
 }
 
-.plusBox27:hover #lineUp67 {
+.plusBox67:hover #lineUp67 {
     animation: 0.6s stretchUp forwards;
 }
 
-.plusBox27:hover #lineSide67 {
+.plusBox67:hover #lineSide67 {
     animation: 0.6s stretchSide forwards;
 }
 
@@ -5160,6 +5292,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5226,7 +5359,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5236,6 +5370,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5302,7 +5437,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5312,6 +5448,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5378,7 +5515,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5388,6 +5526,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5454,7 +5593,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5464,6 +5604,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5530,7 +5671,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5540,6 +5682,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5606,7 +5749,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5616,6 +5760,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5682,7 +5827,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5692,6 +5838,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5758,7 +5905,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5768,6 +5916,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5834,7 +5983,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5844,6 +5994,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5910,7 +6061,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5920,6 +6072,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -5986,7 +6139,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -5996,6 +6150,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -6062,7 +6217,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -6072,6 +6228,7 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
 
@@ -6138,7 +6295,8 @@
         height: 20px;
     }
     100% {
-        height: 160%;
+        height: 150%;
+        z-index: 1;
     }
 }
 
@@ -6148,8 +6306,11 @@
     }
     100% {
         width: 160%;
+        z-index: 1;
     }
 }
+
+
 
 @keyframes stretchDown {
     0% {
