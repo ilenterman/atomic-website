@@ -64,12 +64,9 @@ function App() {
                 <h1 id="joinTitle">JOIN US</h1>
                 <p>If you are a genius with a background in NLP, ML or knowledge graphs we want to meet you.</p>
                 <div className="arrowLinkContainer">
-                  <a className="arrowLink" href="./Jobs"><p>Founding NLP Engineer</p>&nbsp;&nbsp;<img className="arrowLinkImg" src={arrowSide}></img></a>
+                  <a className="arrowLink" href="./Jobs"><p>Founding Engineer</p>&nbsp;&nbsp;<img className="arrowLinkImg" src={arrowSide}></img></a>
                 </div>
                 <br/>
-                <div className="arrowLinkContainer">
-                  <a className="arrowLink" href="./Jobs"><p>Founding Graph ML Engineer</p>&nbsp;&nbsp;<img className="arrowLinkImg" src={arrowSide}></img></a>
-                </div>
             </div>
             <div id="jobs">
                 <h2>JOBS</h2>
