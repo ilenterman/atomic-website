@@ -47,6 +47,9 @@ hr {
 }
 
 @media (min-width: 1600px) {
-  .navLinks { display: none; }
+  .navLinks { 
+    position: relative;
+    left: 780px;
+  }
 }
 /* nav ends */
