@@ -18,33 +18,37 @@
 
 /* Plus box #1 starts */
 .plusBox1 {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp1 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide1 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox1:hover #lineUp1 {
@@ -60,7 +64,7 @@
         height: 20px;
     }
     100% {
-        height: 150%;
+        height: 250%;
     }
 }
 
@@ -94,33 +98,35 @@
 
 /* Plus box #2 starts */
 .plusBox2 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp2 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide2 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox2:hover #lineUp2 {
@@ -172,33 +178,35 @@
 
 /* Plus box #3 starts */
 .plusBox3 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp3 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide3 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox3:hover #lineUp3 {
@@ -250,33 +258,35 @@
 
 /* Plus box #4 starts */
 .plusBox4 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp4 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide4 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox4:hover #lineUp4 {
@@ -328,33 +338,35 @@
 
 /* Plus box #5 starts */
 .plusBox5 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp5 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide5 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox5:hover #lineUp5 {
@@ -406,33 +418,35 @@
 
 /* Plus box #6 starts */
 .plusBox6 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp6 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide6 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox6:hover #lineUp6 {
@@ -484,33 +498,35 @@
 
 /* Plus box #7 starts */
 .plusBox7 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp7 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide7 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox7:hover #lineUp7 {
@@ -562,33 +578,35 @@
 
 /* Plus box #8 starts */
 .plusBox8 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp8 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide8 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox8:hover #lineUp8 {
@@ -640,33 +658,35 @@
 
 /* Plus box #9 starts */
 .plusBox9 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp9 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide9 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox9:hover #lineUp9 {
@@ -718,33 +738,35 @@
 
 /* Plus box #10 starts */
 .plusBox10 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp10 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide10 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox10:hover #lineUp10 {
@@ -796,33 +818,35 @@
 
 /* Plus box #11 starts */
 .plusBox11 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp11 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide11 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox11:hover #lineUp11 {
@@ -874,33 +898,35 @@
 
 /* Plus box #12 starts */
 .plusBox12 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp12 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide12 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox12:hover #lineUp12 {
@@ -952,33 +978,35 @@
 
 /* Plus box #13 starts */
 .plusBox13 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp13 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide13 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox13:hover #lineUp13 {
@@ -1030,33 +1058,35 @@
 
 /* Plus box #14 starts */
 .plusBox14 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp14 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide14 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox14:hover #lineUp14 {
@@ -1108,33 +1138,35 @@
 
 /* Plus box #15 starts */
 .plusBox15 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp15 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide15 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox15:hover #lineUp15 {
@@ -1186,33 +1218,35 @@
 
 /* Plus box #16 starts */
 .plusBox16 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp16 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide16 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox16:hover #lineUp16 {
@@ -1264,33 +1298,35 @@
 
 /* Plus box #17 starts */
 .plusBox17 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp17 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide17 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox17:hover #lineUp17 {
@@ -1342,33 +1378,35 @@
 
 /* Plus box #18 starts */
 .plusBox18 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp18 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide18 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox18:hover #lineUp18 {
@@ -1420,33 +1458,35 @@
 
 /* Plus box #19 starts */
 .plusBox19 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp19 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide19 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox19:hover #lineUp19 {
@@ -1498,33 +1538,35 @@
 
 /* Plus box #20 starts */
 .plusBox20 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp20 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide20 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox20:hover #lineUp20 {
@@ -1576,33 +1618,35 @@
 
 /* Plus box #21 starts */
 .plusBox21 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp21 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide21 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox21:hover #lineUp21 {
@@ -1654,33 +1698,35 @@
 
 /* Plus box #22 starts */
 .plusBox22 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp22 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide22 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox22:hover #lineUp22 {
@@ -1732,33 +1778,35 @@
 
 /* Plus box #23 starts */
 .plusBox23 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp23 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide23 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox23:hover #lineUp23 {
@@ -1810,33 +1858,35 @@
 
 /* Plus box #24 starts */
 .plusBox24 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp24 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide24 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox24:hover #lineUp24 {
@@ -1888,33 +1938,35 @@
 
 /* Plus box #25 starts */
 .plusBox25 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp25 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide25 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox25:hover #lineUp25 {
@@ -1966,33 +2018,35 @@
 
 /* Plus box #26 starts */
 .plusBox26 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp26 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide26 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox26:hover #lineUp26 {
@@ -2044,33 +2098,35 @@
 
 /* Plus box #27 starts */
 .plusBox27 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp27 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide27 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox27:hover #lineUp27 {
@@ -2122,33 +2178,35 @@
 
 /* Plus box #28 starts */
 .plusBox28 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp28 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide28 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox28:hover #lineUp28 {
@@ -2200,33 +2258,35 @@
 
 /* Plus box #29 starts */
 .plusBox29 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp29 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide29 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox29:hover #lineUp29 {
@@ -2278,33 +2338,35 @@
 
 /* Plus box #30 starts */
 .plusBox30 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp30 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide30 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox30:hover #lineUp30 {
@@ -2356,33 +2418,35 @@
 
 /* Plus box #31 starts */
 .plusBox31 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp31 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide31 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox31:hover #lineUp31 {
@@ -2434,33 +2498,35 @@
 
 /* Plus box #32 starts */
 .plusBox32 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp32 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide32 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox32:hover #lineUp32 {
@@ -2512,33 +2578,35 @@
 
 /* Plus box #33 starts */
 .plusBox33 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp33 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide33 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox33:hover #lineUp33 {
@@ -2590,33 +2658,35 @@
 
 /* Plus box #34 starts */
 .plusBox34 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp34 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide34 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox34:hover #lineUp34 {
@@ -2668,33 +2738,35 @@
 
 /* Plus box #35 starts */
 .plusBox35 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp35 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide35 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox35:hover #lineUp35 {
@@ -2746,33 +2818,35 @@
 
 /* Plus box #36 starts */
 .plusBox36 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp36 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide36 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox36:hover #lineUp36 {
@@ -2824,33 +2898,35 @@
 
 /* Plus box #37 starts */
 .plusBox37 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp37 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide37 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox37:hover #lineUp37 {
@@ -2902,33 +2978,35 @@
 
 /* Plus box #37 starts */
 .plusBox37 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp37 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide37 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox37:hover #lineUp37 {
@@ -2980,33 +3058,35 @@
 
 /* Plus box #38 starts */
 .plusBox38 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp38 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide38 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox38:hover #lineUp38 {
@@ -3058,33 +3138,35 @@
 
 /* Plus box #39 starts */
 .plusBox39 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp39 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide39 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox39:hover #lineUp39 {
@@ -3136,33 +3218,35 @@
 
 /* Plus box #40 starts */
 .plusBox40 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp40 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide40 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox40:hover #lineUp40 {
@@ -3214,33 +3298,35 @@
 
 /* Plus box #41 starts */
 .plusBox41 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp41 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide41 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox41:hover #lineUp41 {
@@ -3290,33 +3376,35 @@
 
 /* Plus box #42 starts */
 .plusBox42 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp42 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide42 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox42:hover #lineUp42 {
@@ -3368,33 +3456,35 @@
 
 /* Plus box #43 starts */
 .plusBox43 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp43 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide43 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox43:hover #lineUp43 {
@@ -3446,33 +3536,35 @@
 
 /* Plus box #44 starts */
 .plusBox44 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp44 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide44 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox44:hover #lineUp44 {
@@ -3524,33 +3616,35 @@
 
 /* Plus box #45 starts */
 .plusBox45 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp45 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide45 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox45:hover #lineUp45 {
@@ -3602,33 +3696,35 @@
 
 /* Plus box #46 starts */
 .plusBox46 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp46 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide46 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox46:hover #lineUp46 {
@@ -3680,33 +3776,35 @@
 
 /* Plus box #47 starts */
 .plusBox47 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp47 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide47 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox47:hover #lineUp47 {
@@ -3758,33 +3856,35 @@
 
 /* Plus box #48 starts */
 .plusBox48 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp48 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide48 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox48:hover #lineUp48 {
@@ -3836,33 +3936,35 @@
 
 /* Plus box #49 starts */
 .plusBox49 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp49 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide49 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox49:hover #lineUp49 {
@@ -3914,33 +4016,35 @@
 
 /* Plus box #50 starts */
 .plusBox50 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp50 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide50 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox50:hover #lineUp50 {
@@ -3992,33 +4096,35 @@
 
 /* Plus box #51 starts */
 .plusBox51 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp51 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide51 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox51:hover #lineUp51 {
@@ -4070,33 +4176,35 @@
 
 /* Plus box #52 starts */
 .plusBox52 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp52 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide52 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox52:hover #lineUp52 {
@@ -4148,33 +4256,35 @@
 
 /* Plus box #53 starts */
 .plusBox53 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp53 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide53 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox53:hover #lineUp53 {
@@ -4226,33 +4336,35 @@
 
 /* Plus box #54 starts */
 .plusBox54 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp54 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide54 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox54:hover #lineUp54 {
@@ -4304,33 +4416,35 @@
 
 /* Plus box #55 starts */
 .plusBox55 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp55 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide55 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox55:hover #lineUp55 {
@@ -4382,33 +4496,35 @@
 
 /* Plus box #56 starts */
 .plusBox56 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp56 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide56 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox56:hover #lineUp56 {
@@ -4460,33 +4576,35 @@
 
 /* Plus box #57 starts */
 .plusBox57 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp57 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide57 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox57:hover #lineUp57 {
@@ -4538,33 +4656,35 @@
 
 /* Plus box #58 starts */
 .plusBox58 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp58 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide58 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox58:hover #lineUp58 {
@@ -4616,33 +4736,35 @@
 
 /* Plus box #59 starts */
 .plusBox59 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp59 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide59 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox59:hover #lineUp59 {
@@ -4694,33 +4816,35 @@
 
 /* Plus box #60 starts */
 .plusBox60 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp60 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide60 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox60:hover #lineUp60 {
@@ -4772,33 +4896,35 @@
 
 /* Plus box #61 starts */
 .plusBox61 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp61 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide61 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox61:hover #lineUp61 {
@@ -4850,33 +4976,35 @@
 
 /* Plus box #62 starts */
 .plusBox62 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp62 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide62 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox62:hover #lineUp62 {
@@ -4928,33 +5056,35 @@
 
 /* Plus box #63 starts */
 .plusBox63 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp63 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide63 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox63:hover #lineUp63 {
@@ -5006,33 +5136,35 @@
 
 /* Plus box #64 starts */
 .plusBox64 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp64 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide64 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox64:hover #lineUp64 {
@@ -5084,33 +5216,35 @@
 
 /* Plus box #65 starts */
 .plusBox65 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp65 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide65 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox65:hover #lineUp65 {
@@ -5162,33 +5296,35 @@
 
 /* Plus box #66 starts */
 .plusBox66 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp66 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide66 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox66:hover #lineUp66 {
@@ -5240,33 +5376,35 @@
 
 /* Plus box #67 starts */
 .plusBox67 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp67 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide67 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox67:hover #lineUp67 {
@@ -5317,33 +5455,35 @@
 
 /* Plus box #68 starts */
 .plusBox68 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp68 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide68 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox68:hover #lineUp68 {
@@ -5395,33 +5535,35 @@
 
 /* Plus box #69 starts */
 .plusBox69 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp69 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide69 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox69:hover #lineUp69 {
@@ -5473,33 +5615,35 @@
 
 /* Plus box #70 starts */
 .plusBox70 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp70 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide70 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox70:hover #lineUp70 {
@@ -5551,33 +5695,35 @@
 
 /* Plus box #71 starts */
 .plusBox71 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp71 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide71 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox71:hover #lineUp71 {
@@ -5629,33 +5775,35 @@
 
 /* Plus box #72 starts */
 .plusBox72 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp72 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide72 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox72:hover #lineUp72 {
@@ -5707,33 +5855,35 @@
 
 /* Plus box #73 starts */
 .plusBox73 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp73 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide73 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox73:hover #lineUp73 {
@@ -5785,33 +5935,35 @@
 
 /* Plus box #74 starts */
 .plusBox74 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp74 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide74 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox74:hover #lineUp74 {
@@ -5863,33 +6015,35 @@
 
 /* Plus box #75 starts */
 .plusBox75 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp75 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide75 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox75:hover #lineUp75 {
@@ -5941,33 +6095,35 @@
 
 /* Plus box #76 starts */
 .plusBox76 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp76 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide76 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox76:hover #lineUp76 {
@@ -6019,33 +6175,35 @@
 
 /* Plus box #77 starts */
 .plusBox77 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp77 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide77 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox77:hover #lineUp77 {
@@ -6097,33 +6255,35 @@
 
 /* Plus box #78 starts */
 .plusBox78 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp78 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide78 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox78:hover #lineUp78 {
@@ -6175,33 +6335,35 @@
 
 /* Plus box #79 starts */
 .plusBox79 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp79 {
-    width: 3px;
-    height: 20px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchDown forwards;
+width: 3px;
+height: 25px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchDown forwards;
 }
 
 #lineSide79 {
-    width: 20px;
-    height: 3px;
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s ease-in-out all;
-    animation: 1.2s stretchIn forwards;
+width: 25px;
+height: 3px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 1s ease-in-out all;
+animation: 1.2s stretchIn forwards;
 }
 
 .plusBox79:hover #lineUp79 {
@@ -6253,6 +6415,8 @@
 
 /* Plus box #80 starts */
 .plusBox80 {
+    margin: 0;
+    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
@@ -6260,7 +6424,7 @@
 
 #lineUp80 {
     width: 3px;
-    height: 20px;
+    height: 25px;
     position: absolute;
     background-color: black;
     top: 50%;
@@ -6271,7 +6435,7 @@
 }
 
 #lineSide80 {
-    width: 20px;
+    width: 25px;
     height: 3px;
     position: absolute;
     background-color: black;
