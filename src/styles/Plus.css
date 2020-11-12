@@ -20,35 +20,33 @@
 .plusBox1 {
     margin: 0;
     padding: 0;
-    margin: 0;
-    padding: 0;
     width: 50px;
     height: 50px;
     position: relative;
 }
 
 #lineUp1 {
-width: 3px;
-height: 25px;
-position: absolute;
-background-color: black;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-transition: 1s ease-in-out all;
-animation: 1.2s stretchDown forwards;
+    width: 3px;
+    height: 25px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
 }
 
 #lineSide1 {
-width: 25px;
-height: 3px;
-position: absolute;
-background-color: black;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-transition: 1s ease-in-out all;
-animation: 1.2s stretchIn forwards;
+    width: 25px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
 }
 
 .plusBox1:hover #lineUp1 {
@@ -61,19 +59,19 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
-        height: 250%;
+        height: 160%;
     }
 }
 
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
-        width: 150%;
+        width: 160%;
     }
 }
 
@@ -82,7 +80,7 @@ animation: 1.2s stretchIn forwards;
         height: 400px;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -91,7 +89,7 @@ animation: 1.2s stretchIn forwards;
         width: 400px;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #1 ends */
@@ -139,7 +137,7 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
@@ -149,7 +147,7 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -162,16 +160,18 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
+
+
 
 @keyframes stretchIn {
     0% {
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #2 ends */
@@ -219,17 +219,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -242,7 +241,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -251,7 +250,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #3 ends */
@@ -299,17 +298,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -322,7 +320,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -331,7 +329,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #4 ends */
@@ -379,17 +377,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -402,7 +399,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -411,7 +408,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #5 ends */
@@ -459,17 +456,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -482,7 +478,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -491,7 +487,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #6 ends */
@@ -539,17 +535,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -562,7 +557,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -571,7 +566,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #7 ends */
@@ -619,17 +614,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -642,7 +636,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -651,7 +645,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #8 ends */
@@ -699,17 +693,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -722,7 +715,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -731,7 +724,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #9 ends */
@@ -779,17 +772,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -802,7 +794,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -811,7 +803,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #10 ends */
@@ -859,17 +851,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -882,7 +873,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -891,7 +882,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #11 ends */
@@ -939,17 +930,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -962,7 +952,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -971,7 +961,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #12 ends */
@@ -1019,17 +1009,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1042,7 +1031,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1051,7 +1040,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #13 ends */
@@ -1099,17 +1088,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1122,7 +1110,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1131,7 +1119,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #14 ends */
@@ -1179,17 +1167,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1202,7 +1189,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1211,7 +1198,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #15 ends */
@@ -1259,17 +1246,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1282,7 +1268,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1291,7 +1277,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #16 ends */
@@ -1339,17 +1325,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1362,7 +1347,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1371,7 +1356,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #17 ends */
@@ -1419,17 +1404,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1442,7 +1426,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1451,7 +1435,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #18 ends */
@@ -1499,17 +1483,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1522,7 +1505,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1531,7 +1514,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #19 ends */
@@ -1579,17 +1562,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1602,7 +1584,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1611,7 +1593,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #20 ends */
@@ -1659,17 +1641,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1682,7 +1663,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1691,7 +1672,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #21 ends */
@@ -1739,17 +1720,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1762,7 +1742,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1771,7 +1751,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #22 ends */
@@ -1819,17 +1799,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1842,7 +1821,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1851,7 +1830,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #23 ends */
@@ -1899,17 +1878,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -1922,7 +1900,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -1931,7 +1909,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #24 ends */
@@ -1979,17 +1957,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2002,7 +1979,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2011,7 +1988,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #25 ends */
@@ -2059,17 +2036,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2082,7 +2058,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2091,7 +2067,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #26 ends */
@@ -2139,17 +2115,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2162,7 +2137,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2171,7 +2146,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #27 ends */
@@ -2219,17 +2194,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2242,7 +2216,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2251,7 +2225,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #28 ends */
@@ -2299,17 +2273,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2322,7 +2295,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2331,7 +2304,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #29 ends */
@@ -2379,17 +2352,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2402,7 +2374,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2411,7 +2383,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #30 ends */
@@ -2459,17 +2431,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2482,7 +2453,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2491,7 +2462,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #31 ends */
@@ -2539,17 +2510,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2562,7 +2532,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2571,7 +2541,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #32 ends */
@@ -2619,17 +2589,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2642,7 +2611,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2651,7 +2620,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #33 ends */
@@ -2699,17 +2668,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2722,7 +2690,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2731,7 +2699,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #34 ends */
@@ -2779,17 +2747,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2802,7 +2769,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2811,7 +2778,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #35 ends */
@@ -2859,17 +2826,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2882,7 +2848,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2891,7 +2857,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #36 ends */
@@ -2939,17 +2905,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -2962,7 +2927,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -2971,7 +2936,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #37 ends */
@@ -3019,17 +2984,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3042,7 +3006,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3051,7 +3015,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #37 ends */
@@ -3099,17 +3063,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3122,7 +3085,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3131,7 +3094,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #38 ends */
@@ -3179,17 +3142,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3202,7 +3164,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3211,7 +3173,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #39 ends */
@@ -3259,17 +3221,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3282,7 +3243,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3291,7 +3252,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #40 ends */
@@ -3417,17 +3378,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3440,7 +3400,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3449,7 +3409,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #42 ends */
@@ -3497,17 +3457,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3520,7 +3479,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3529,7 +3488,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #43 ends */
@@ -3577,17 +3536,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3600,7 +3558,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3609,7 +3567,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #44 ends */
@@ -3657,17 +3615,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3680,7 +3637,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3689,7 +3646,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #45 ends */
@@ -3737,17 +3694,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3760,7 +3716,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3769,7 +3725,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #46 ends */
@@ -3817,17 +3773,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3840,7 +3795,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3849,7 +3804,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #47 ends */
@@ -3897,17 +3852,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -3920,7 +3874,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -3929,7 +3883,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #48 ends */
@@ -3977,17 +3931,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4000,7 +3953,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4009,7 +3962,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #49 ends */
@@ -4057,17 +4010,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4080,7 +4032,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4089,7 +4041,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #50 ends */
@@ -4137,17 +4089,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4160,7 +4111,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4169,7 +4120,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #51 ends */
@@ -4217,17 +4168,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4240,7 +4190,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4249,7 +4199,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #52 ends */
@@ -4297,17 +4247,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4320,7 +4269,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4329,7 +4278,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #53 ends */
@@ -4377,17 +4326,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4400,7 +4348,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4409,7 +4357,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #54 ends */
@@ -4457,17 +4405,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4480,7 +4427,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4489,7 +4436,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #55 ends */
@@ -4537,17 +4484,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4560,7 +4506,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4569,7 +4515,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #56 ends */
@@ -4617,17 +4563,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4640,7 +4585,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4649,7 +4594,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #57 ends */
@@ -4697,17 +4642,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4720,7 +4664,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4729,7 +4673,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #58 ends */
@@ -4777,17 +4721,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4800,7 +4743,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4809,7 +4752,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #59 ends */
@@ -4857,17 +4800,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4880,7 +4822,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4889,7 +4831,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #60 ends */
@@ -4937,17 +4879,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -4960,7 +4901,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -4969,7 +4910,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #61 ends */
@@ -5017,17 +4958,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5040,7 +4980,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5049,7 +4989,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #62 ends */
@@ -5097,17 +5037,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5120,7 +5059,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5129,7 +5068,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #63 ends */
@@ -5177,17 +5116,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5200,7 +5138,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5209,7 +5147,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #64 ends */
@@ -5257,17 +5195,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5280,7 +5217,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5289,7 +5226,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #65 ends */
@@ -5337,17 +5274,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5360,7 +5296,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5369,7 +5305,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #66 ends */
@@ -5423,10 +5359,9 @@ animation: 1.2s stretchIn forwards;
         height: 180%;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5439,7 +5374,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5448,7 +5383,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #67 ends */
@@ -5496,17 +5431,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5519,7 +5453,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5528,7 +5462,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #68 ends */
@@ -5576,17 +5510,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5599,7 +5532,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5608,7 +5541,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #69 ends */
@@ -5656,17 +5589,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5679,7 +5611,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5688,7 +5620,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #70 ends */
@@ -5736,17 +5668,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5759,7 +5690,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5768,7 +5699,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #71 ends */
@@ -5816,17 +5747,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5839,7 +5769,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5848,7 +5778,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #72 ends */
@@ -5896,17 +5826,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5919,7 +5848,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -5928,7 +5857,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #73 ends */
@@ -5976,17 +5905,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -5999,7 +5927,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -6008,7 +5936,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #74 ends */
@@ -6056,17 +5984,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -6079,7 +6006,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -6088,7 +6015,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #75 ends */
@@ -6136,17 +6063,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -6159,7 +6085,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -6168,7 +6094,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #76 ends */
@@ -6216,17 +6142,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -6239,7 +6164,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -6248,7 +6173,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #77 ends */
@@ -6296,17 +6221,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -6319,7 +6243,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -6328,7 +6252,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #78 ends */
@@ -6343,27 +6267,27 @@ animation: 1.2s stretchIn forwards;
 }
 
 #lineUp79 {
-width: 3px;
-height: 25px;
-position: absolute;
-background-color: black;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-transition: 1s ease-in-out all;
-animation: 1.2s stretchDown forwards;
+    width: 3px;
+    height: 25px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchDown forwards;
 }
 
 #lineSide79 {
-width: 25px;
-height: 3px;
-position: absolute;
-background-color: black;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-transition: 1s ease-in-out all;
-animation: 1.2s stretchIn forwards;
+    width: 25px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s ease-in-out all;
+    animation: 1.2s stretchIn forwards;
 }
 
 .plusBox79:hover #lineUp79 {
@@ -6376,17 +6300,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
-        height: 150%;
+        height: 160%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -6399,7 +6322,7 @@ animation: 1.2s stretchIn forwards;
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -6408,7 +6331,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #79 ends */
@@ -6456,17 +6379,16 @@ animation: 1.2s stretchIn forwards;
 
 @keyframes stretchUp {
     0% {
-        height: 20px;
+        height: 25px;
     }
     100% {
         height: 150%;
         z-index: 1;
     }
 }
-
 @keyframes stretchSide {
     0% {
-        width: 20px;
+        width: 25px;
     }
     100% {
         width: 160%;
@@ -6474,14 +6396,12 @@ animation: 1.2s stretchIn forwards;
     }
 }
 
-
-
 @keyframes stretchDown {
     0% {
         height: 160%;
     }
     100% {
-        height: 20px;
+        height: 25px;
     }
 }
 
@@ -6490,7 +6410,7 @@ animation: 1.2s stretchIn forwards;
         width: 160%;
     }
     100% {
-        width: 20px;
+        width: 25px;
     }
 }
 /* Plus box #80 ends */
